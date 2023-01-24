@@ -1,0 +1,103 @@
+.conversation {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+
+  border-radius: 15px;
+  border: 1px solid #626d7a;
+}
+
+.conversation__wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  overflow-y: hidden;
+}
+
+.conversation__nickname_field {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  height: 50px;
+
+  border-bottom: #626d7a 1px solid;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+
+  color: #626d7a;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.conversation__back {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.conversation__back_button {
+  margin-right: 10px;
+}
+
+.conversation__inputarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* height: 110px; */
+
+  border-top: 1px solid #626d7a;
+}
+
+.conversation__input {
+  width: 465px;
+  height: 60px;
+  resize: none;
+}
+
+.conversation__messages {
+  height: 100%;
+
+  font-size: 14px;
+
+  padding-left: 15px;
+  padding-top: 15px;
+
+  overflow-y: scroll;
+}
+
+.conversation__message {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.conversation__sender_date {
+  display: flex;
+  align-items: center;
+  color: #a5a5a5;
+}
+
+.conversation__date {
+  font-size: 14px;
+  margin-left: 10px;
+}

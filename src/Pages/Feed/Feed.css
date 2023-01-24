@@ -1,0 +1,54 @@
+.feed__wrapper {
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid #626d7a;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+
+  width: 100%;
+  height: 100%;
+
+  overflow-y: scroll;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-top: 20px;
+}
+
+.feed__info {
+  margin-bottom: 10px;
+}
+
+.feed__nickname,
+.feed__friends,
+.feed__subscribers {
+  margin-bottom: 10px;
+}
+
+.feed__addToFriends {
+  height: 30px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #626d7a;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.feed__posts {
+  /* height: 100%; */
+  margin-bottom: 30px;
+}

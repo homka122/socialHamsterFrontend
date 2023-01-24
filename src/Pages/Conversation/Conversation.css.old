@@ -1,0 +1,158 @@
+.conversation {
+  width: 100%;
+  margin-top: 30px;
+  height: 85vh;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+}
+
+.conversation__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 730px;
+}
+
+.conversation__nickname_field {
+  border: 1px solid #a5a5a5;
+  height: 7%;
+  display: flex;
+  align-items: center;
+
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.conversation__messages {
+  border: 1px solid #a5a5a5;
+  font-size: 20px;
+  height: 83%;
+
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+
+  overflow-y: scroll;
+}
+
+.conversation__message {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+.conversation__sender_date {
+  display: flex;
+  align-items: center;
+  color: #a5a5a5;
+}
+
+.conversation__date {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.conversation__inputarea {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conversation__input {
+  width: 80%;
+  height: 100%;
+  font-size: 18px;
+  margin-right: 20px;
+
+  padding: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+
+  resize: none;
+}
+
+.conversation__button {
+  width: 20%;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.conversation__back_button {
+  width: 40px;
+
+  margin-right: 10px;
+
+  text-align: center;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .conversation {
+    font-size: 18px;
+
+    margin-top: 0px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .conversation__date {
+    font-size: 10px;
+  }
+
+  .conversation__nickname_field {
+    font-size: 18px;
+  }
+
+  .conversation__message {
+    font-size: 14px;
+  }
+
+  .conversation__back_button {
+    font-size: 12px;
+  }
+
+  .conversation__button {
+    font-size: 10px;
+  }
+
+  .conversation__input {
+    font-size: 12px;
+  }
+}

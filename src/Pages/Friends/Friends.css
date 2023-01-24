@@ -1,0 +1,48 @@
+.friends,
+.friendsRight {
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border-radius: 15px;
+  border: 1px solid #626d7a;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+}
+
+.friendsRight__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.friendsRight__element {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.friends__user {
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  border: 1px solid #626d7a;
+}
+
+.friends__top_panel {
+  display: flex;
+  align-items: center;
+}
+
+.friends__username {
+  margin-left: 5px;
+}
+
+.friends__button {
+  margin-top: 15px;
+  cursor: pointer;
+}

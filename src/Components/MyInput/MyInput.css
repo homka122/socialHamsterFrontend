@@ -1,0 +1,15 @@
+.myinput__inputarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.myinput__input {
+  max-width: 465px;
+  width: 100%;
+  /* max-height: 200px; */
+  /* min-height: 50px; */
+  padding: 5px;
+  resize: none;
+}
