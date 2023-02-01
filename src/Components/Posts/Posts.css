@@ -16,9 +16,12 @@
 
   padding: 5px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-bottom: 5px; */
   border-radius: 5px;
   border: 1px solid #626d7a;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .posts__user {
@@ -43,4 +46,35 @@
 
 .posts__text {
   white-space: pre-wrap;
+}
+
+.posts__bottom {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.posts__like {
+  height: 25px;
+  width: 25px;
+  filter: invert(12%) sepia(86%) saturate(6796%) hue-rotate(349deg) brightness(105%) contrast(109%);
+  cursor: pointer;
+}
+
+.posts__likes {
+  margin-left: 5px;
+}
+
+.posts__comment {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.posts__comments {
+  margin-left: 5px;
+}
+.posts__comments_wrap {
+  margin-top: 15px;
 }
