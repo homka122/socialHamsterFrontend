@@ -121,19 +121,21 @@ export const Friends = () => {
         </div>
       </div>
       <div className="second_content">
-        <div className="friendsRight">
-          <div className="friendsRight__container">
-            <div className="friendsRight__element" onClick={() => setOption('friends')}>
-              Друзья ({friends.length})
-            </div>
-            <div className="friendsRight__element" onClick={() => setOption('subscribers')}>
-              Подписчики ({subscribers.length})
-            </div>
-            <div className="friendsRight__element" onClick={() => setOption('input')}>
-              Входящие заявки ({input.length})
-            </div>
-            <div className="friendsRight__element" onClick={() => setOption('output')}>
-              Отправленные заявки ({output.length})
+        <div className="friends__border">
+          <div className="friendsRight">
+            <div className="friendsRight__container">
+              <div className="friendsRight__element" onClick={() => setOption('friends')}>
+                Друзья ({friends.length})
+              </div>
+              <div className="friendsRight__element" onClick={() => setOption('subscribers')}>
+                Подписчики ({subscribers.length})
+              </div>
+              <div className="friendsRight__element" onClick={() => setOption('input')}>
+                Входящие заявки ({input.length})
+              </div>
+              <div className="friendsRight__element" onClick={() => setOption('output')}>
+                Отправленные заявки ({output.length})
+              </div>
             </div>
           </div>
         </div>

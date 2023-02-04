@@ -178,7 +178,7 @@ function Conversations() {
             <img src="search.svg" alt="search logo" height={20} width={20} />
             <input type="text" className="top_panel__input" />
           </div>
-          <img src="/chat.svg" alt="chat logo" height={20} width={20} onClick={() => setDisplay('block')} style={{ cursor: 'pointer' }} />
+          <img src="/chat.svg" alt="chat logo" height={20} width={20} onClick={() => setDisplay('flex')} style={{ cursor: 'pointer' }} />
         </div>
         <div className="conversations nicescroll">{loading ? renderSkeletonConvnersation() : renderConversations()}</div>
       </div>

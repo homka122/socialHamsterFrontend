@@ -51,7 +51,8 @@ function Layout() {
       return;
     }
 
-    ws = new WebSocket('wss://wsssocialhamsterapi.homka122.ru/' + token);
+    // ws = new WebSocket('wss://wsssocialhamsterapi.homka122.ru/' + token);
+    ws = new WebSocket('ws://localhost:5000/' + token);
   }, []);
 
   return (
